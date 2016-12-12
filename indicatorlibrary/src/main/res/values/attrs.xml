@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorView">
+        <attr name="hado_radius_selected" format="dimension" />
+        <attr name="hado_radius_unselected" format="dimension" />
+
+        <attr name="hado_color_selected" format="color" />
+        <attr name="hado_color_unselected" format="color" />
+
+        <attr name="hado_distance" format="dimension" />
+    </declare-styleable>
+</resources>
