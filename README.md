@@ -4,7 +4,7 @@ This indicator library is made by me and i'm so happy if you use it to learn or 
 
 My code in library so clear and simply to understand. I hope you can learn something in it.
 
-This is my guide article, it show you how to build this library (only Vietnamese version): []()
+This is my guide article, it show you how to build this library (only Vietnamese version): [https://kipalog.com/posts/Android--Hieu-sau-hon-ve-CustomView-va-Huong-dan-xay-dung-thu-vien-UI-IndicatorView](https://kipalog.com/posts/Android--Hieu-sau-hon-ve-CustomView-va-Huong-dan-xay-dung-thu-vien-UI-IndicatorView)
 
 ## Preview
 
