@@ -135,9 +135,10 @@ public class IndicatorView extends View implements IndicatorInterface, ViewPager
     @Override
     public void setViewPager(ViewPager viewPager) throws PagesLessException {
         this.viewPager = viewPager;
+        currentPosition = viewPager.getCurrentItem();
         viewPager.addOnPageChangeListener(this);
         initDot(viewPager.getAdapter().getCount());
-        onPageSelected(0);
+        onPageSelected(currentPosition);
     }
 
     private void initDot(int count) throws PagesLessException {
