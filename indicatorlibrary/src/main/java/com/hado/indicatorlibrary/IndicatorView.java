@@ -183,6 +183,9 @@ public class IndicatorView extends View implements IndicatorInterface, ViewPager
             beforePosition = currentPosition + 1;
         }
 
+        dots[currentPosition].setColor(colorSelected);
+        dots[beforePosition].setColor(colorUnselected);
+
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.setDuration(animateDuration);
 
