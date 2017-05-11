@@ -12,6 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"></android.support.v4.view.ViewPager>
 
+    <com.hado.progressbarlib.ProgressBar
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
     <com.hado.indicatorlibrary.IndicatorView
         android:id="@+id/indicator"
         android:layout_width="match_parent"

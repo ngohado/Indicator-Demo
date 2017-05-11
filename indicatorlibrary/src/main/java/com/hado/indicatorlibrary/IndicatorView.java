@@ -78,8 +78,6 @@ public class IndicatorView extends View implements IndicatorInterface, ViewPager
 
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
-        super.onLayout(changed, left, top, right, bottom);
-
         float yCenter = getHeight() / 2;
 
         int d = distance + 2 * radiusUnselected;
